@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="15dp"
+        android:layout_centerVertical="true">
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txt_card_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/card_name"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/text_16sp"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txt_card_sn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sn"
+            android:layout_marginTop="2dp"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="@dimen/text_16sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+        <include layout="@layout/line_vertical"/>
+    </LinearLayout>
+</RelativeLayout>

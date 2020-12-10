@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">GATT UART SERVER</string>
+    <string name="warning">Warning</string>
+    <string name="enable">Enable</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="turn_one_blue">Turn on bluetooth</string>
+    <string name="turn_on_bluetooth_message">Turn On Bluetooth to allow "Ethernom Password Manager" to connect bluetooth accessories. Are you want to Enable?</string>
+    <string name="turn_one_blue_message">This is needed to ring your Ethernom BLE Tracker. Please check your Bluetooth settings.</string>
+    <string name="device_connected">Device Connected</string>
+    <string name="message">Message</string>
+    <string name="card_name">Device Name</string>
+    <string name="sn">Address</string>
+    <string name="status">Status:</string>
+</resources>
